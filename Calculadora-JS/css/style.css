@@ -4,7 +4,7 @@
 }
 
 .fundo{
-    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(224, 146, 30));
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(184, 22, 176, 0.774));
     height: 100vh;
     color: rgb(238, 237, 237);
     font-family: 'Odibee Sans', cursive;
@@ -12,8 +12,8 @@
 }
 
 .calculadora{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute; 
+    background-color: rgba(168, 19, 94, 0.8);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -33,7 +33,7 @@
 }
 
 .botao:hover{
-    background-color: rgba(0, 0, 0, 0.465);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #resultado{
